@@ -4,7 +4,7 @@
       class="container mx-auto grid md:grid-cols-2 gap-12 my-9 place-items-center"
   >
     <!-- Mein Foto -->
-    <img :src="blok.image.filename" alt="Tamara" class="rounded-lg" />
+    <img :src="blok.image.filename" :alt="blok.image.alt" class="rounded-lg" />
     <div>
       <!-- Header -->
       <h1 class="text-9xl text-[#2d2d2d] font-bold font-display">

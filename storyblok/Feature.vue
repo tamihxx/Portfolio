@@ -4,7 +4,7 @@
       class="w-full p-12 bg-[#ffffff] rounded-[5px] text-center"
   >
     <!-- Icon -->
-    <img :src="blok.icon.filename" alt="Image description" class="mx-auto mb-4 w-48" />
+    <img :src="blok.icon.filename" :alt="blok.icon.alt" class="mx-auto mb-4 w-48" />
 
     <!-- Header -->
     <h3 class="text-5xl text-[#2d2d2d] font-bold font-display">

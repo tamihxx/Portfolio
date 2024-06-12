@@ -15,7 +15,7 @@
 
     <!-- Rechte Spalte (Bild) -->
     <div>
-      <img :src="blok.image.filename" alt="Image description" class="max-w-full h-auto" />
+      <img :src="blok.image.filename" :alt="blok.image.alt" class="max-w-full h-auto" />
     </div>
   </div>
 </template>
